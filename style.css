@@ -1,0 +1,23 @@
+﻿*{
+	font-size : large;
+	
+	font-family : 'Learning Curve Pro',"trebuchet ms",georgia, georgian, "times new roman";
+}
+a:active{
+	background-color: rgb(163,200,145);
+}
+a:visited
+{
+	color : #AAA;
+}
+a:hover
+{
+	color:green;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: 'Learning Curve Pro';
+	src: url('polices/learning_curve/LearningCurve.ttf') format('ttf');
+}
+
