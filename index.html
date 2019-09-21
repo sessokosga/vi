@@ -3,68 +3,95 @@
     <!-- Entete de la page -->
     <head>
         <META CHARSET = "UTF-8">
-		<meta name="viewport" content="width=device-width"/>
+		
+		<!--[if lt IE 9]>
+			<script
+				src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+			</script>
+		<![endif]-->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, target-densitydpi=device-dpi"/>
 		<link rel="stylesheet" href="style.css"/>
-        <TITLE >s.riepoc</title>
+        <TITLE >s.riecop</title>
     </head>
     <body>
-	 <h3>S.reicop</h3>
-	 
-	 <p class = "introduction">
-	 	Salut</br>Je suis Sesso Kosga Bamokai Michée, je suis un developpeur plutot <i>backend</i>.</br>
-		Je suis à la tête d'une equipe dont vous n'avez sans doute jamais entendu parler : <i><b>S.maet</b></i></br>
-		Nous avons conçu un petit bijout qui vous interressera.</br>
-		Il s'agit d'un gestionnare de copie qui tourne sur toutes les plateformes; Windows, Mac OS, Linux. </br>
-		Vous devez bien sûr  installer au préalable le runtime <i><a href = "https://support.microsoft.com/en-us/help/29" title="Installer le runtime">visual c++</a></i></br>
-		Bien, vous découvrirez ici : </br>
-		<ul>
-			<li><a href = "#possibilite">Ce que mon logiciel est capable de faire</a></li>
-			<li><a href = "#raisonPourAcheter">Pourquoi vous devriez acheter mon logiciel</a></li>
-			<li><a href = "#pourquoiCeNom">Pourquoi j'ai chois <em>s.reipoc</em> pour nom</a></li>
-		</ul>
-    </p>
-	<p>
-		<h4 id = "possibilite">Mon logiciel permet de :</br></h4>
-		<ul>
-			<li>Effectuer une copie avec barre de progression</li>
-			<li>Effectuer une une copie avec une vitesse minimale de 60 Mo/s</li>
-			<li>Effectuer une copie en ayant sous les yeux, le temps écoulé et le temps restant</li>
-		</ul>
-	</p>
-	<p>
-		<h4  id = "raisonPourAcheter">Voici des raisons de l'acheter:</h4>
-		<ol>
-			<li>Vous mettrez moins de temps à attendre la fin d'une copie</li>
-			<li>Vous aurez plus beson d'arreter certains processus pour que la copie aille vite</li>
-			<li>Vous aurez plus à prévoir toute une journée pour aller copier des series chez un ami</li>			
-		</ol>
-	</p>
-	<p>
-		<h4 id ="pourquoiCeNom">Voici les raisons pour lesquelles nous avons choisis <em>s.reicop</em>:</h4>
-		<dl>		
-				<dt><h4>riecop</h4></dt>
-				<dd>
-					C'est assez bête en fait: 
-					<li>Nous voulions <em>copier</em> comme nom mais il était déja pris</li>
-					<li>Alors nous on a choisis <em>reipoc</em> qui correspond à copier écrit de la droite vers la gauche</li>
-					<li>Mais <em>reipoc</em> n'est pas facile à prononcer, <i>J'y arrive pas moi même :)</i></li>
-					<li>On a permuté le <i>c</i> et le <i>p</i> et on obtient <i>reicop</i> , je sais, <i>c'est chouette</i></li>
-				</dd>
-            <dt>
-				<h4>s</h4>
-			</dt>
-			<dd>
-				Le <em>s</em> est la première lettre de mon nom </br>
-				Le <i>s.</i> est la marque de fabrique de notre équipe</br>
-				Tous nos produits commençent par <i>s. </i>, Ça constitue une garantie de l'autencticité du produit</br>
-			</dd>
-			<dt><h4>s.reicop</h4></dt><dd>Bref. Un gestionnaire de copie que nous avons concus pour rendre votre vie plus fun :)</dd>
-		</dl>
-	</p>
-	<p>
-		<a href = "vente.html" title="Acheter s.reicop">Acheter le produit</a></br>
-		<a href="mailto:s.reipoc@gmail.com" title="s.reipoc@gmail.com"> Envoyer-moi un mail</a>
-	</p>
+		<header>
+			<h2>Kosga</h2>
+		</header>
+		<h3>S.reicop</h3>
+		<nav>
+			<ul>
+				<li><a href = "index.html">Accueil</a></li>
+				<li><a href = "vente.html">Acheter S.reicop</a></li>
+				<li><a href = "listeproduits.html">Autres produits Kosga</a></li>
+			</ul>
+		</nav>
+		
+		<section  class = "introduction">
+			<p>
+				Salut</br>Je suis <b><i>Sesso Kosga Bamokai Michée</i></b>, je suis un developpeur plutot <i>backend</i>.
+				J'ai conçu un petit bijout qui vous interressera.
+				Il s'agit d'un gestionnare de copie qui tourne sur toutes les plateformes; Windows, Mac OS, Linux. 
+				Vous devez bien sûr  installer au préalable le runtime <i><a href = "https://support.microsoft.com/en-us/help/29" title="Installer le runtime">visual c++</a></i>
+				Bien, vous découvrirez ici : 
+				<ul>
+					<li><a href = "#possibilite">Ce que mon logiciel est capable de faire</a></li>
+					<li><a href = "#raisonPourAcheter">Pourquoi vous devriez acheter mon logiciel</a></li>
+					<li><a href = "#pourquoiCeNom">Pourquoi j'ai chois <em>s.reipoc</em> pour nom</a></li>
+				</ul>
+			</p>
+		</section>
+		
+		<section id = "possibilite">
+			<p>
+				<h4>Mon logiciel permet de :</br></h4>
+				<ul>
+					<li>Effectuer une copie avec barre de progression</li>
+					<li>Effectuer une une copie avec une vitesse minimale de 60 Mo/s</li>
+					<li>Effectuer une copie en ayant sous les yeux, le temps écoulé et le temps restant</li>
+				</ul>
+			</p>
+		</section>
+		
+		<section id = "raisonPourAcheter">
+			<p>
+				<h4>Voici des raisons de l'acheter:</h4>
+				<ol>
+					<li>Vous mettrez moins de temps à attendre la fin d'une copie</li>
+					<li>Vous aurez plus beson d'arreter certains processus pour que la copie aille vite</li>
+					<li>Vous aurez plus à prévoir toute une journée pour aller copier des series chez un ami</li>			
+				</ol>
+			</p>
+		</section>
+		
+		<section id ="pourquoiCeNom">
+			<p>
+				<h4>Voici les raisons pour lesquelles j'ai choisis <em>s.reicop</em>:</h4>
+				<dl>		
+						<dt><h4>riecop</h4></dt>
+						<dd>
+							C'est assez bête en fait: 
+							<li>Je voulais <em>copier</em> comme nom mais il était déja pris</li>
+							<li>Alors j'ai choisis <em>reipoc</em> qui correspond à copier écrit de la droite vers la gauche</li>
+							<li>Mais <em>reipoc</em> n'est pas facile à prononcer, <i>J'y arrive pas moi même :)</i></li>
+							<li>J'ai a permuté le <i>c</i> et le <i>p</i> et on obtient <i>reicop</i> , je sais, <i>c'est chouette</i></li>
+						</dd>
+					<dt>
+						<h4>s</h4>
+					</dt>
+					<dd>
+						<li>Le <em>s</em> est la première lettre de mon nom</li>
+					</dd>
+					<dt><h4>s.reicop</h4></dt><dd>Bref. Un gestionnaire de copie que j'ai concus pour rendre votre vie plus fun :)</dd>
+				</dl>
+			</p>
+		</section>
+		<footer>
+			<a href = "vente.html" title="Acheter s.reicop">Acheter S.reicop</a>
+			<a href="mailto:k.sesso@yandex.com" title="k.sesso@yandex.com"> Envoyer-moi un mail</a>
+			<a href="cgu.html">Conditions Générale d'Utilisation</a>
+		</footer>
+		
     </body>
 </html>
     

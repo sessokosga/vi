@@ -13,6 +13,29 @@ a:hover
 	color:green;
 	font-style:normal;
 }
+a
 
+
+p{
+	text-align:justify;
+}
+
+nav
+{
+	display:inline-block;
+	width:200px;
+	
+	vertical-align:top;
+}
+section
+{
+	display:inline-block;
+	
+	vertical-align:top;
+	width:99%;
+	text-align:justify;
+	padding-left:5px;
+	padding-right:5px;
+}
 
 
