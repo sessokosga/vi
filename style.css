@@ -1,41 +1,140 @@
-﻿*{
-	font-family :"trebuchet ms",georgia, georgian, "times new roman";
-}
-a:active{
-	background-color: rgb(163,200,145);
-}
-a:visited
+﻿@font-face
 {
-	color : #AAA;
-}
-a:hover
-{
-	color:green;
+	font-family: "BallparkWeiner";
+	src: url('polices/ballpark.eot');
+	src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+		url('polices/ballpark.woff') format('woff'),
+		url('polices/ballpark.ttf') format('truetype'),
+		url('polices/ballpark.svg#BallparkWeiner') format('svg');
+	font-weight: normal;
 	font-style:normal;
 }
-a
+
+@font-face
+{
+	font-family: 'Dayrom';
+	src: url('polices/dayrom.eot');
+	src: url('polices/dayrom?#iefix') format('embedded-opentype'),
+		url('polices/dayrom.woff') format('woff'),
+		url('polices/dayrom.ttf') format('truetype'),
+		url('polices/dayrom.svg#Dayrom') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+/* Header */
+#titre_principal
+{
+	
+	display:inline-block;
+}
+
+header h1
+{
+	font-family: 'BallparkWeiner',serif;
+	font-size:2.5em;
+	font-weight:normal;
+	color: rgb(128,0,255);
+}
+#logo, header h1
+{
+	display:inline-block;
+	margin-bottom=0px;
+	
+}
+
+
+
+nav
+{
+	
+	font-family: 'Dayrom',serif;
+	text-transform:uppercase;
+	display:inline-block;
+	
+	position:relative-left;
+}
+
+nav ul 
+{
+	list-style-type:none;
+}
+
+nav li
+{
+	display:inline-block;
+	margin-right:15px;
+}
+
+nav a:hover
+{
+	color: rgb(128,0,255);
+	border-bottom:3px solid rgb(128,0,255);
+}
+
+nav a
+{
+	font-size: 1.3em;
+	color:rgb(54,24,51);
+	padding-bottom: 3px;
+	text-decoration:none;
+}
+/* Body */
+#articles
+{
+	list-style-type:none;
+	
+}
+
+#articles a
+{
+	text-decoration:none;
+}
+img
+{
+	margin-right: 1.2em;
+}
 
 
 p{
 	text-align:justify;
+	word-wrap: break-word;
 }
 
-nav
-{
-	display:inline-block;
-	width:200px;
-	
-	vertical-align:top;
-}
-section
-{
-	display:inline-block;
-	
-	vertical-align:top;
-	width:99%;
+body{
+	font-family :georgia, georgian, "times new roman";	
 	text-align:justify;
-	padding-left:5px;
-	padding-right:5px;
+	background: url("images/fond_jaune.png");
 }
 
+#block_page
+{
+	margin:auto;
+	width:80%;
+}
+h1,h2,h3,h4
+{
+	font-family: 'Dayrom',serif;
+}
 
+/* Footer */
+
+footer a
+{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:black;
+}
+
+footer a:hover
+{
+	color: rgb(128,0,255);
+	border-bottom:3px solid rgb(128,0,255)
+}
+footer li
+{
+	margin-right:15px;
+	display : inline-block;
+	list-style-type:none;
+}
