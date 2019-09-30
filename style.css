@@ -82,6 +82,10 @@ nav a
 	text-decoration:none;
 }
 /* Body */
+figure,img
+{
+	width:90%;
+}
 #name
 {
 	font-family:'dayrom','time new roman';
