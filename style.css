@@ -86,6 +86,10 @@ figure
 {
 	position:relative-left;
 }
+img
+{
+	width:100%;
+}
 #name
 {
 	font-family:'dayrom','time new roman';
