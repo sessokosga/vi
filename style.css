@@ -84,12 +84,10 @@ nav a
 /* Body */
 figure
 {
+	width:100%;
 	position:relative-left;
 }
-img
-{
-	width:100%;
-}
+
 #name
 {
 	font-family:'dayrom','time new roman';
