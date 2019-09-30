@@ -37,6 +37,7 @@ header h1
 	font-weight:normal;
 	color: rgb(128,0,255);
 }
+
 #logo, header h1
 {
 	display:inline-block;
@@ -50,7 +51,7 @@ nav
 {
 	
 	font-family: 'Dayrom',serif;
-	text-transform:uppercase;
+	text-transform:capitalize;
 	display:inline-block;
 	
 	position:relative-left;
@@ -81,6 +82,11 @@ nav a
 	text-decoration:none;
 }
 /* Body */
+#name
+{
+	font-family:'dayrom','time new roman';
+}
+
 #articles
 {
 	list-style-type:none;
@@ -108,10 +114,16 @@ body{
 	background: url("images/fond_jaune.png");
 }
 
+figure
+{
+	vertical-align:top;
+	width:98%;
+}
+
 #block_page
 {
 	margin:auto;
-	width:80%;
+	width:98%;
 }
 h1,h2,h3,h4
 {
@@ -122,7 +134,7 @@ h1,h2,h3,h4
 
 footer a
 {
-	text-transform:uppercase;
+	
 	text-decoration:none;
 	color:black;
 }
