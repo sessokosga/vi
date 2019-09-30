@@ -24,7 +24,7 @@
 
 
 /* Header */
-#titre_principal
+#titre_principal,figure,img
 {
 	
 	display:inline-block;
@@ -82,6 +82,10 @@ nav a
 	text-decoration:none;
 }
 /* Body */
+figure
+{
+	position:relative-left;
+}
 #name
 {
 	font-family:'dayrom','time new roman';
@@ -116,6 +120,7 @@ body{
 {
 	margin:auto;
 	width:98%;
+	overflow: auto;
 }
 h1,h2,h3,h4
 {
