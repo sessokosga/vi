@@ -24,7 +24,7 @@
 
 
 /* Header */
-#titre_principal,img,figure
+#titre_principal
 {
 	
 	display:inline-block;
@@ -96,10 +96,6 @@ nav a
 #articles a
 {
 	text-decoration:none;
-}
-img
-{
-	margin-right: 1.2em;
 }
 
 
