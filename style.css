@@ -116,6 +116,7 @@ body{
 {
 	margin:auto;
 	width:98%;
+	overflow: auto;
 }
 h1,h2,h3,h4
 {
