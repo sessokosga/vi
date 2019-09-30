@@ -82,9 +82,9 @@ nav a
 	text-decoration:none;
 }
 /* Body */
-figure,img
+figure
 {
-	width:90%;
+	position:relative-left;
 }
 #name
 {
