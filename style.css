@@ -131,7 +131,7 @@ body{
 #block_page
 {
 	margin:auto;
-	width:98%;
+	width:95%;
 	overflow: auto;
 }
 h1,h2,h3,h4
@@ -153,7 +153,7 @@ footer a:hover
 	color: rgb(128,0,255);
 	border-bottom:3px solid rgb(128,0,255)
 }
-footer li
+footer ul
 {
 	margin-right:15px;
 	display : inline-block;
