@@ -139,6 +139,11 @@ h1,h2,h3,h4
 	font-family: 'Dayrom',serif;
 }
 
+img, table, td, blockquote, code, pre, textarea, input, iframe,
+object, embed, video {
+	max-width: 100%;
+}
+
 /* Footer */
 
 footer a
